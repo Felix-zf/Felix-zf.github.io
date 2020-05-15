@@ -266,7 +266,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #00ffff 0%, #ffb7dd 100%);
 }
 
 .text-color {
@@ -274,7 +274,7 @@ mark {
 }
 
 .white-color {
-    color: #cc33ff;
+    color: #ff3333;
 }
 
 .progress-bar {
@@ -1855,7 +1855,7 @@ footer a {
 }
 
 footer .copy-right {
-    color: #ff9900;
+    color: #33ccff;
 }
 
 /*搜索层样式*/
@@ -1870,7 +1870,7 @@ footer .copy-right {
 
 #searchModal .search-header .title {
     font-size: 1.6rem;
-    color: #333;
+    color: #ff6347;
 }
 
 #searchResult {
