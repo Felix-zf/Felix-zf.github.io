@@ -270,11 +270,11 @@ mark {
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #cc0000 !important;
 }
 
 .white-color {
-    color: #fff;
+    color: #660099;
 }
 
 .progress-bar {
@@ -1851,7 +1851,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #33ccff;
+    color: #cc00ff;
 }
 
 footer .copy-right {
@@ -1870,7 +1870,7 @@ footer .copy-right {
 
 #searchModal .search-header .title {
     font-size: 1.6rem;
-    color: #ff4500;
+    color: #ff0000;
 }
 
 #searchResult {
