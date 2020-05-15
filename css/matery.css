@@ -270,11 +270,11 @@ mark {
 }
 
 .text-color {
-    color: #cc0000 !important;
+    color: #ff00ff !important;
 }
 
 .white-color {
-    color: #660099;
+    color: #ff0000;
 }
 
 .progress-bar {
@@ -1851,7 +1851,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #cc00ff;
+    color: #ff00ff;
 }
 
 footer .copy-right {
