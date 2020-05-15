@@ -270,7 +270,7 @@ mark {
 }
 
 .text-color {
-    color: #ff00cc !important;     /*底部链接及文字的图标为粉色*/
+    color: #ff0099 !important;     /*底部链接及文字的图标为粉色*/
 }
 
 .white-color {
@@ -1851,7 +1851,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #ff00cc;         /*尾部样式的图标粉色*/     
+    color: #ff0099;         /*尾部样式的图标粉色*/     
 }
 
 footer .copy-right {
