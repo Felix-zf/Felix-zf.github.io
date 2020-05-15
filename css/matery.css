@@ -619,7 +619,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+@-webkit-keyframes rainbow {/*
 
     0%,
     100% {
@@ -662,10 +662,10 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    }*/
 }
 
-@keyframes rainbow {
+@keyframes rainbow {/*
 
     0%,
     100% {
@@ -708,7 +708,7 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    }*/
 }
 
 .index-card {
@@ -1851,7 +1851,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #fff;
+    color: #33ccff;
 }
 
 footer .copy-right {
@@ -1870,7 +1870,7 @@ footer .copy-right {
 
 #searchModal .search-header .title {
     font-size: 1.6rem;
-    color: #333;
+    color: #ff4500;
 }
 
 #searchResult {
