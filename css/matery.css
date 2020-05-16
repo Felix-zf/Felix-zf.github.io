@@ -266,7 +266,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #feac5e 0%, #c779d0 100%);  /*顶部和底部导航栏的颜色为绿色&&线性渐变*/
+    background-image: linear-gradient(to right, #feac5e 0%, #c779d0 100%);  /*右部导航栏的颜色为黄色线性渐变为蓝色*/
 }
 
 .text-color {
@@ -1870,7 +1870,7 @@ footer .copy-right {
 
 #searchModal .search-header .title {
     font-size: 1.6rem;
-    color: #ff0000;       /*搜索的图标红色*/
+    color: #ff0000;         /*搜索的图标红色*/
 }
 
 #searchResult {
