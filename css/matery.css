@@ -266,11 +266,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);  /*顶部和底部导航栏的颜色为绿色*/
+    background-image: linear-gradient(to right, #b088ff 0%, #0f9d58 100%);  /*顶部和底部导航栏的颜色为绿色&&线性渐变*/
 }
 
 .text-color {
-    color: #ff0099 !important;     /*底部链接及文字的图标为粉色*/
+    color: #ff99ff !important;     /*底部链接及文字的图标为淡粉色*/
 }
 
 .white-color {
@@ -1851,7 +1851,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #ff0099;         /*尾部样式的图标粉色*/     
+    color: #ff99ff;         /*尾部样式的图标淡粉色*/     
 }
 
 footer .copy-right {
