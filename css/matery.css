@@ -257,7 +257,7 @@ mark {
 
 .card .card-image img {
     border-radius: 8px 8px 0 0;
-    /* 修改文章列表图片填充样式为 cover 以覆盖整个区域而不会被缩放 */
+    /*修改文章列表图片填充样式为 cover 以覆盖整个区域而不会被缩放*/
     object-fit: cover;
 }
 
@@ -265,8 +265,9 @@ mark {
     margin-bottom: 0;
 }
 
+/*整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色*/
 .bg-color {
-    background-color: #66ccff;  /*整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色*/
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);  
 }
 
 .text-color {
