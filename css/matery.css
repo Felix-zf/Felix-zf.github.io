@@ -266,7 +266,7 @@ mark {
 }
 
 .bg-color {
-    background-image: #66ccff;  /*右部导航栏的颜色为黄色线性渐变为蓝色*/
+    background-color: #66ccff;  /*右部导航栏的颜色为黄色线性渐变为蓝色*/
 }
 
 .text-color {
