@@ -5,7 +5,7 @@
  * -- http://codepen.io/tholman/full/jWmZxZ/
  */
 
-//鼠标点击雪花特效
+//添加鼠标彩虹星星掉落跟随效果
 (function fairyDustCursor() {
   
   var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"]
