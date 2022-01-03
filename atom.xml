@@ -41,53 +41,6 @@
   </entry>
   
   <entry>
-    <title>Markdown语法</title>
-    <link href="https://felix-zf.github.io/Felix-zf.github.io/2021/081222648.html"/>
-    <id>https://felix-zf.github.io/Felix-zf.github.io/2021/081222648.html</id>
-    <published>2021-08-12T07:36:27.000Z</published>
-    <updated>2022-01-03T02:06:47.898Z</updated>
-    
-    <content type="html"><![CDATA[<p>建设中ing</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;建设中ing&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>重新部署hexo</title>
-    <link href="https://felix-zf.github.io/Felix-zf.github.io/2021/08129823.html"/>
-    <id>https://felix-zf.github.io/Felix-zf.github.io/2021/08129823.html</id>
-    <published>2021-08-12T06:00:23.000Z</published>
-    <updated>2022-01-03T02:06:47.861Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="重新部署hexo"><a href="#重新部署hexo" class="headerlink" title="重新部署hexo"></a>重新部署hexo</h1><h2 id="重新安装Node-js和Git"><a href="#重新安装Node-js和Git" class="headerlink" title="重新安装Node.js和Git"></a>重新安装Node.js和Git</h2><p>本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下。</p><ul><li>测试命令<pre><code class="bash">$ node -v  npm -v  git --version</code></pre><h2 id="打开Git软件，重新配置SSH"><a href="#打开Git软件，重新配置SSH" class="headerlink" title="打开Git软件，重新配置SSH"></a>打开Git软件，重新配置SSH</h2></li><li>输入账号邮箱  <pre><code class="bash">$ git config --global user.name “xxx” /*Github账号名字*/ git config --global user.email “xxx@qq.com”  /*Github账号密码*/ </code></pre></li><li>重新配置SSH  <pre><code class="bash">$ ssh-keygen -t rsa -C&quot;xxx@qq.com&quot;     /*配置SSH*/  ssh -T git@github.com     /*测试链接*/    </code></pre><h2 id="关联github项目，新建blog文件夹，Copy源代码区块"><a href="#关联github项目，新建blog文件夹，Copy源代码区块" class="headerlink" title="关联github项目，新建blog文件夹，Copy源代码区块"></a>关联github项目，新建blog文件夹，Copy源代码区块</h2><pre><code class="bash">$ git init    git remote add origin https://github.com/xxx/xxx.github.io.git    npm install –g hexo     /*安装Hexo*/  npm install      /*安装项目依赖*/  hexo g            /*生成并本地预览*/  hexo s            /*访问本地客户端-http://localhost:4000*/  hexo d           /*提交到GitHub*/  hexo cl &amp;&amp; hexo g -d                /*清除上传指令*/</code></pre></li><li><img src="https://sweetolive.github.io/2020/04/03/1/06.png" alt="转移文件">  </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;重新部署hexo&quot;&gt;&lt;a href=&quot;#重新部署hexo&quot; class=&quot;headerlink&quot; title=&quot;重新部署hexo&quot;&gt;&lt;/a&gt;重新部署hexo&lt;/h1&gt;&lt;h2 id=&quot;重新安装Node-js和Git&quot;&gt;&lt;a href=&quot;#重新安装Node-js和Gi
-      
-    
-    </summary>
-    
-    
-    
-      <category term="blog" scheme="https://Felix-zf.github.io/Felix-zf.github.io/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
     <title>逮虾户</title>
     <link href="https://felix-zf.github.io/Felix-zf.github.io/2020/052541740.html"/>
     <id>https://felix-zf.github.io/Felix-zf.github.io/2020/052541740.html</id>
