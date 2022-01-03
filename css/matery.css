@@ -267,15 +267,15 @@ mark {
 
 /*整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色*/
 .bg-color {
-    background-image: linear-gradient(to right,#623AA2 0%,#F97794 100%);  
+    background-image: linear-gradient(to right,#3a84a2 0%,#77e5f9 100%);  
 }
 
 .text-color {
-    color: #FF99FF !important;     /*底部链接及文字的图标为淡粉色*/
+    color: #ffec99 !important;     /*底部链接及文字图标*/
 }
 
 .white-color {
-    color: #99CCFF;                /*浏览访问量人数颜色代码淡蓝色*/
+    color: #99CCFF;                /*浏览访问量人数颜色*/
 }
 
 .progress-bar {
@@ -405,8 +405,8 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
-    color: #99CCFF;             /*文章中间背景颜色淡蓝色*/
-    border: 1px solid #99CCFF;  /*文章中间背景颜色淡蓝色*/
+    color: #99CCFF;             /*文章中间背景颜色*/
+    border: 1px solid #99CCFF;  /*文章中间背景颜色*/
     background-color: transparent;
     border-radius: 30px;
     box-shadow: none;
@@ -1852,7 +1852,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #FF99FF;         /*尾部样式图标淡粉色*/     
+    color: #FF99FF;         /*尾部样式图标*/     
 }
 
 footer .copy-right {
@@ -1871,7 +1871,7 @@ footer .copy-right {
 
 #searchModal .search-header .title {
     font-size: 1.6rem;
-    color: #FF0000;         /*搜索的图标红色*/
+    color: #FF0000;         /*搜索图标*/
 }
 
 #searchResult {
