@@ -271,7 +271,7 @@ mark {
 }
 
 .text-color {
-    color: #ffec99 !important;     /*底部链接及文字图标*/
+    color: #000000 !important;     /*底部链接及文字图标*/
 }
 
 .white-color {
