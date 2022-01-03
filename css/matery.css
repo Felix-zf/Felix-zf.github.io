@@ -267,7 +267,7 @@ mark {
 
 /*整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色*/
 .bg-color {
-    background-image: linear-gradient(to right,#3aa2a2 0%,#77e5f9 100%);  
+    background-image: linear-gradient(to right,#6495ED 0%,#6495ED 100%);  
 }
 
 .text-color {
@@ -1852,7 +1852,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #FF99FF;         /*尾部样式图标*/     
+    color: #000000;         /*尾部样式图标*/     
 }
 
 footer .copy-right {
