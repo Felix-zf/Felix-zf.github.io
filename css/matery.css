@@ -267,7 +267,7 @@ mark {
 
 /*整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色*/
 .bg-color {
-    background-image: linear-gradient(to right,#3a84a2 0%,#77e5f9 100%);  
+    background-image: linear-gradient(to right,#3aa2a2 0%,#77e5f9 100%);  
 }
 
 .text-color {
@@ -275,7 +275,7 @@ mark {
 }
 
 .white-color {
-    color: #99CCFF;                /*浏览访问量人数颜色*/
+    color: #000000;                /*浏览访问量人数颜色*/
 }
 
 .progress-bar {
