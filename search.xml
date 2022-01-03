@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>关于我</title>
+      <link href="/2022/010316107.html"/>
+      <url>/2022/010316107.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="简单点的自我介绍"><a href="#简单点的自我介绍" class="headerlink" title="简单点的自我介绍"></a>简单点的自我介绍</h1><p>初次见面这是本人的第一篇博客，是一位废柴理科生，平时听音乐打游戏吃货党，爱漂移挑战自我极限，更新慢，维护网站佛性，望见谅！</p><ul><li>目前本科在读</li><li>所学专业：机械电子工程</li><li>B站昵称：-秋名山吃豆腐</li><li>Steam：Felix</li><li>PSN:Felix_7200S</li><li>Twitter:Felix</li><li>Telegram: Felix</li><li>Facebook:Felix Zf</li><li>YouTube:Felix Zf</li></ul><h2 id="以下代码为测试使用-•‾̑⌣‾̑•-✧˖°"><a href="#以下代码为测试使用-•‾̑⌣‾̑•-✧˖°" class="headerlink" title="以下代码为测试使用(•‾̑⌣‾̑•)✧˖°"></a>以下代码为测试使用(•‾̑⌣‾̑•)✧˖°</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><h3 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h3><p><a href="https://www.jianshu.com/p/7771794c88a1" target="_blank" rel="noopener">介绍教程</a><br>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a>  </p><ul><li>超链接[文本]+(网址)  插入图片![文本]+(网址)  </li><li>hexo cl &amp;&amp; hexo g -d  重新部署上传</li><li>打开侧边距[CTRL+SHIFT+P]  </li><li>空格两下回车换行  </li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 自我介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown语法</title>
+      <link href="/2021/081222648.html"/>
+      <url>/2021/081222648.html</url>
+      
+        <content type="html"><![CDATA[<p>建设中ing</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新部署hexo</title>
+      <link href="/2021/08129823.html"/>
+      <url>/2021/08129823.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="重新部署hexo"><a href="#重新部署hexo" class="headerlink" title="重新部署hexo"></a>重新部署hexo</h1><h2 id="重新安装Node-js和Git"><a href="#重新安装Node-js和Git" class="headerlink" title="重新安装Node.js和Git"></a>重新安装Node.js和Git</h2><p>本文章主要介绍了在重装系统或者更换电脑以后怎样更新自己的博客，经过自己的尝试可行，于是记录分享一下。</p><ul><li>测试命令<pre><code class="bash">$ node -v  npm -v  git --version</code></pre><h2 id="打开Git软件，重新配置SSH"><a href="#打开Git软件，重新配置SSH" class="headerlink" title="打开Git软件，重新配置SSH"></a>打开Git软件，重新配置SSH</h2></li><li>输入账号邮箱  <pre><code class="bash">$ git config --global user.name “xxx” /*Github账号名字*/ git config --global user.email “xxx@qq.com”  /*Github账号密码*/ </code></pre></li><li>重新配置SSH  <pre><code class="bash">$ ssh-keygen -t rsa -C&quot;xxx@qq.com&quot;     /*配置SSH*/  ssh -T git@github.com     /*测试链接*/    </code></pre><h2 id="关联github项目，新建blog文件夹，Copy源代码区块"><a href="#关联github项目，新建blog文件夹，Copy源代码区块" class="headerlink" title="关联github项目，新建blog文件夹，Copy源代码区块"></a>关联github项目，新建blog文件夹，Copy源代码区块</h2><pre><code class="bash">$ git init    git remote add origin https://github.com/xxx/xxx.github.io.git    npm install –g hexo     /*安装Hexo*/  npm install      /*安装项目依赖*/  hexo g            /*生成并本地预览*/  hexo s            /*访问本地客户端-http://localhost:4000*/  hexo d           /*提交到GitHub*/  hexo cl &amp;&amp; hexo g -d                /*清除上传指令*/</code></pre></li><li><img src="https://sweetolive.github.io/2020/04/03/1/06.png" alt="转移文件">  </li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逮虾户</title>
+      <link href="/2020/052541740.html"/>
+      <url>/2020/052541740.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="JDM"><a href="#JDM" class="headerlink" title="JDM"></a>JDM</h1><p>最早接触赛车文化，最早是从一部叫《高智能方程式》的动漫说起，后来慢慢接触到了《湾岸MIDNIGHT》、《头文字D》等动漫，也逐步认识了“JDM”这个属于日本赛车文化的词汇。JDM即日本国内市场（Japanese domestic market）。就是为日本国内市场生产的车辆及其零配件，有时也指汽车及摩托车爱好者聚集的地方。其实JDM最具魅力的地方是，一台车，并不完美，维修便宜，改装件多种多样，平民少年也能负担的起，用汗水和心血去让自己的车变得完美，在动力和操控上维持平衡，开着它去上街跑山还能买菜，车不只是年轻人追求刺激的工具，如果只是追求刺激，用不了几年，你的心理和身体状态就不允许你这么做了。改装车是爱车人的伙伴，不单是用来追求速度，更是你平日里的一种坚持，对自己追求完美的一种坚持。这才是JDM的精神！<br>PS:<a href="https://www.bilibili.com/video/BV1Ct411H7Vk" target="_blank" rel="noopener">首都高真实赛况</a><br><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528103028.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528103139.jpg" alt=""> </p><h1 id="漂移"><a href="#漂移" class="headerlink" title="漂移"></a>漂移</h1><p>说到赛车文化不得不说到漂移二字，漂移的原理很简单：使轮胎失去抓地力，在惯性力的作用下产生横向的滑移，同时配合着反打（防止spin），产生摩擦力使车按照预定轨迹行驶。具体的起漂操作详细看如下几位介绍:  </p><ul><li>极速拍档 NANA<br>不用说，真冲还得NANA😏<a href="https://www.bilibili.com/video/BV1Af4y1U784" target="_blank" rel="noopener">链接</a><br><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528103044.jpg" alt="">  </li><li>D1元老车手 野村谦<br>很逗得一位赛车选手，个人讲解得不错，富有趣味，通俗易懂。<br><a href="https://www.bilibili.com/video/BV1VE411Q7ts" target="_blank" rel="noopener">初级教学</a>&amp;<a href="https://www.bilibili.com/video/BV1zJ411d7HL" target="_blank" rel="noopener">中级教学</a>  </li><li>GT常胜军 土屋圭市<br>动漫迷都知道他吧，我就不过多阐述了<a href="https://www.bilibili.com/video/BV1Rx411K7ps?from=search&seid=1058609552092679028" target="_blank" rel="noopener">链接</a>  </li><li>谷口信辉 反打基础教学<br>也是和土屋一样很著名的赛车选手<a href="https://www.bilibili.com/video/BV1U4411S7ex" target="_blank" rel="noopener">链接</a><h2 id="极速拍档"><a href="#极速拍档" class="headerlink" title="极速拍档"></a>极速拍档</h2>最后，也要感谢我最爱的汽车UP极速拍档，不仅让我知道了“你好坏啊，我好喜欢”，也让我知道了7200干他！拉高转速，冲吧，BRZ,86…<br><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528103135.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528103123.jpg" alt=""></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 赛车 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RPG</title>
+      <link href="/2020/052358333.html"/>
+      <url>/2020/052358333.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="RPG"><a href="#RPG" class="headerlink" title="RPG"></a>RPG</h1><ul><li>RPG Maker（中文译名：RPG制作大师）是由日本ASCII集团旗下的一个分公司Enterbrain开发的一款RPG游戏开发工具。从发布于1992年的官方承认的第一作——RPGツクールDante98 算起，已经有了28年的历史。作为一款游戏开发工具，二十多年来这个系列的引擎总是褒贬不一，但国内外不乏许多使用RPG Maker开发的广受好评的游戏。比如使用RPG Maker XP （下面简称RM XP）开发的煽情名作《To the Moon》，以及大家所熟悉的精品独立游戏《undertale》也是通过这个系列开发。本人怀着对日式文化的喜爱，特地制作了”阿飞の1游”，以表敬意！  <h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><img src="https://cdn.jsdelivr.net/gh/Felix-zf/pic/img/20200528102615.jpg" alt=""><h2 id="用到的软件"><a href="#用到的软件" class="headerlink" title="用到的软件"></a>用到的软件</h2></li><li>RPG制作大师MV<h2 id="教学"><a href="#教学" class="headerlink" title="教学"></a>教学</h2></li><li>B站up主硕明云书的教学，个人感觉比较详细，对此表示衷心感谢! <a href="https://www.bilibili.com/video/BV1Ub411G7Tk" target="_blank" rel="noopener">链接</a><h2 id="本人编写的资源"><a href="#本人编写的资源" class="headerlink" title="本人编写的资源"></a>本人编写的资源</h2></li><li>这是我的新手作，如有不足，还请见谅！游戏任务没有设置，只要打开所有宝箱个人觉得就算通关。百度云：<a href="https://pan.baidu.com/s/18GSaeUJeGfRYYQKbHMYUmg" target="_blank" rel="noopener">链接</a> 提取码：444i</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 游戏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
